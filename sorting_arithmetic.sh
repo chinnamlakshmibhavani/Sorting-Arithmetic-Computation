@@ -1,3 +1,5 @@
 #!/bin/bash -x
 
-echo "Welcome to arthmetic operations"
+read -p "Enter number 1 :" Number1
+read -p "Enter number 2 :" Number2
+read -p "Enter number 3 :" Number3
