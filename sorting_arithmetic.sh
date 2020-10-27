@@ -19,5 +19,12 @@ do
 done
 echo "array values are :"${array[@]}
 
+variable=${computation[@]}
+for values in $variable
+do
+   array[count]=$values
+   count=$(( $count+1 ))
+done
+echo "array values are :"${array[@]}
 
 
